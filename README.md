@@ -1,47 +1,34 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - QR code component solution
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Table of contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
-## 🚀 Project Structure
+## Overview
 
-Inside of your Astro project, you'll see the following folders and files:
+### Screenshot
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+![](./screenshot.jpg)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## My process
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Built with
 
-Any static assets, like images, can be placed in the `public/` directory.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+- ![Astro](https://img.shields.io/badge/Astro-BC52EE.svg?style=for-the-badge&logo=Astro&logoColor=white)
+- ![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
 
-## 🧞 Commands
+## Author
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Website - [Portofolio](https://matheoboulanger.netlify.app)
+- Frontend Mentor - [@vite-spirite](https://www.frontendmentor.io/profile/vite-spirite)
+- Twitter - [@ViteSpirite](https://twitter.com/ViteSpirite)

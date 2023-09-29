@@ -1,0 +1,20 @@
+---
+interface Props {
+    image: string;
+    title: string;
+    paragraph: string;
+}
+
+const {image, title, paragraph} = Astro.props;
+---
+
+
+<div class="card p-5 bg-white rounded-2xl shadow-lg flex flex-col justify-center items-start md:w-96">
+    <img alt="qr-code" src={image} class="rounded-xl"/>
+
+    <h1 class="text-xl font-bold mt-4 text-darkBlue text-center">{title}</h1>
+
+    <p class="text-md text-grayishBlue text-center mt-4">
+        {paragraph}
+    </p>
+</div>

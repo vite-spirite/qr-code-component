@@ -1,16 +1,21 @@
 ---
-
+import QRCode from '../component/qr-code.astro';
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+		<title>QR code component challenge</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-lightGray">
+		<div class="w-full h-screen flex flex-row justify-center items-center px-8 py-16">
+			<QRCode image="/image-qr-code.png" title="Imporve your front-end skills by building projects" paragraph='Scan the QR code to visit Frontend Mentor and take your coding skills to the next level'/>
+		</div>
 	</body>
 </html>
